@@ -32,7 +32,7 @@ class About extends Component {
                 <p>Jesse Kevon is an experienced web engineer with a focus on front-end and UI development. With nine years of experience, Jesse has honed his skills to create custom, responsive, and dynamic WordPress themes, marketing sites, email templates, and mobile/web apps. He takes pride in writing clean, semantic code using React, HTML5, Sass, Javascript, and PHP, ensuring visually appealing, efficient, and effective projects.</p>
                 <br/>
                 <p>Jesse has worked with diverse clients across various industries, offering tailored solutions to help them achieve their goals. He is a creative problem-solver who enjoys taking on challenging projects, delivering high-quality results. Whether developing a new website or improving an existing one, Jesse brings expertise, dedication, and passion to every project he undertakes.</p>
-                <p><a target="_blank" href="https://jessekevon.github.io/jessekevon/work/Resume.pdf">View Resume</a></p>
+                <p><a target="_blank" href="https://jessekevon.github.io/work/Resume.pdf">View Resume</a></p>
               </div>
             </div>
           </div>
