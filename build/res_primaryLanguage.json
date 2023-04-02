@@ -15,10 +15,11 @@
         "startDate": "2023",
         "description": "As a web developer at thepointsguy.com, I maintain and build web UI improvements and features for a PHP, JavaScript, and React-driven credit card rewards and travel site. With more than 35 new and updated daily posts, we serve over 8 million unique monthly visitors.In my role, I lead TPG’s UI rebranding and overhaul initiative and spearheaded the build for our Best Cards page. I also created personalized experiences using proprietary software for A/B testing and decisioning based on tests, user agent information, and rules.",
         "images": [
-          "images/portfolio/tpg/tpg1.png",
-          "images/portfolio/tpg/tpg2.png"
+          "images/portfolio/tpg/tpg1-min.png",
+          "images/portfolio/tpg/tpg2-min.png",
+          "images/portfolio/tpg/tpg3-min.png"
         ],
-        "url": "",
+        "url": "https://thepointsguy.com/",
         "technologies": [
           {
             "class": "devicon-javascript-plain",
@@ -43,10 +44,10 @@
         "startDate": "2019",
         "description": "As part of a small team of developers, I helped build and maintain creditcards.com. During my time there, I was part of the team responsible for the rebrand initiative. I frequently worked on fetching and manipulating data from our credit cards API to provide dynamic results to our end users.",
         "images": [
-          "images/portfolio/cccom/cc1.png",
-          "images/portfolio/cccom/cc2.png"
+          "images/portfolio/cccom/cc1-min.png",
+          "images/portfolio/cccom/cc2-min.png"
         ],
-        "url": "https://github.com",
+        "url": "https://www.creditcards.com/",
         "technologies": [
           {
             "class": "devicon-vuejs-plain",
@@ -67,10 +68,10 @@
         "startDate": "2017",
         "description": "I created a web interface that incorporates the typography and graphics of the brand's hierarchies, along with subtle animations and generous white space, to replicate the in-person experience on the digital platform. The site was built to be responsive, ensuring that it would look great on any device.",
         "images": [
-          "images/portfolio/jugo/jugo2.png",
-          "images/portfolio/jugo/jugo1.png"
+          "images/portfolio/jugo/jugo2-min.png",
+          "images/portfolio/jugo/jugo1-min.png"
         ],
-        "url": "https://github.com",
+        "url": "https://jugo-austin.com/",
         "technologies": [
           {
             "class": "devicon-javascript-plain",
@@ -95,10 +96,10 @@
         "startDate": "2016",
         "description": "Shed Barber is a popular barber shop located in Austin, Texas. I worked to create a website that would showcase their trendy aesthetic and provide an easy-to-use platform for customers to book appointments and learn about their services. To meet the client's requirements, Wordpress was used allowing Specht's team to add new projects and update site content easily. On the front end, The theme was built using clean HTML, SCSS, and JavaScript best practices, ensuring that the site would be lightweight, fast, and user-friendly.",
         "images": [
-          "images/portfolio/shed/shed1.png",
-          "images/portfolio/shed/shed2.png"
+          "images/portfolio/shed/shed1-min.png",
+          "images/portfolio/shed/shed2-min.png"
         ],
-        "url": "https://github.com",
+        "url": "https://shedbarber.com/",
         "technologies": [
           {
             "class": "devicon-html5-plain",
@@ -123,10 +124,10 @@
         "startDate": "2015",
         "description": "To meet the client's requirements, this site was built with WordPress as the content management system (CMS). The theme was built using clean HTML, SCSS, and JavaScript best practices, ensuring that the site would be lightweight, fast, and user-friendly. The site featured high-quality images of the firm's completed projects, which showcased their architectural prowess. The site included smooth animations that added a subtle touch of elegance.",
         "images": [
-          "images/portfolio/specht/specht1.png",
-          "images/portfolio/specht/specht2.png"
+          "images/portfolio/specht/specht1-min.png",
+          "images/portfolio/specht/specht2-min.png"
         ],
-        "url": "https://github.com",
+        "url": "https://spechtarchitects.com/",
         "technologies": [
           {
             "class": "devicon-html5-plain",
@@ -151,11 +152,11 @@
         "startDate": "2014",
         "description": "In the early stages of my career as a developer, I was assigned the task of creating a website that would stand out for my client, Big Red Sun. To achieve this, I utilized the latest HTML and CSS best practices and took advantage of WordPress' powerful customization features. The end result was a distinctive website that perfectly matched the client's brand.",
         "images": [
-          "images/portfolio/brs/brs1.png",
-          "images/portfolio/brs/brs2.png",
-          "images/portfolio/brs/brs3.png"
+          "images/portfolio/brs/brs1-min.png",
+          "images/portfolio/brs/brs2-min.png",
+          "images/portfolio/brs/brs3-min.png"
         ],
-        "url": "https://github.com",
+        "url": "http://bigredsunaustin.com/",
         "technologies": [
           {
             "class": "devicon-css3-plain",
