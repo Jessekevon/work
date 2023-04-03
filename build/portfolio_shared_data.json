@@ -14,9 +14,9 @@
           "class": "fab fa-instagram"
         },
         {
-          "name": "resume",
-          "url": "https://www.instagram.com",
-          "class": "fa fa-file"
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/jessekevon/",
+          "class": "fa fa-linkedin"
         }
       ],
       "image": "myProfile.jpg"
