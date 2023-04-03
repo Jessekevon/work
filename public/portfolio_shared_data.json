@@ -4,19 +4,19 @@
       "titles": [ "Web Engineer", "UI Developer", "Technical Product Manager" ],
       "social": [
         {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/jessekevon/",
+          "class": "fab fa-linkedin"
+        },
+        {
           "name": "github",
           "url": "https://github.com/Jessekevon/",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
-        },
-        {
-          "name": "Linkedin",
-          "url": "https://www.linkedin.com/in/jessekevon/",
-          "class": "fab fa-linkedin"
+          "name": "CodePen",
+          "url": "https://codepen.io/jessekevon",
+          "class": "fab fa-codepen"
         }
       ],
       "image": "myProfile.jpg"
