@@ -31,7 +31,7 @@ const Slideshow = ({ slides }) => {
 };
 
 const FullscreenVideo = () => {
-  const slides = ['Boba Fett', 'Prototypes', 'Digital Solutions', 'Ui/Ux Design'];
+  const slides = ['Development', 'Prototypes', 'Digital Solutions', 'Ui/Ux Design'];
 
   return (
     <div className="fullscreen-video">
