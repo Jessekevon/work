@@ -13,26 +13,13 @@ class About extends Component {
     return (
       <section className="about">
         <div className="col-md-12">
-          <h1>About</h1>
+          <h2>About Myself</h2>
           <div className="row center mx-auto mb-5">
-            <div className="col-md-4 mb-5 center">
-              <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
-                  <img
-                    height="250px"
-                    src={profilepic}
-                    alt="Avatar placeholder"
-                  />
-                </span>
-              </div>
-            </div>
-
             <div className="col-md-8 center">
               <div className="col-md-10">
-                <p>Jesse Kevon is an experienced web engineer with a focus on front-end and UI development. With a decade of experience, Jesse has honed his skills to create custom, responsive, and dynamic marketing sites, web apps, email templates, CMS experiences and web tools. He takes pride in writing clean, semantic code using React, HTML5, Sass, Javascript, and PHP, ensuring visually appealing, efficient, and effective projects.</p>
+                <p>I am a senior-level technologist and web developer with over a decade of experience, adept at seamlessly blending design and development. My expertise lies in creating custom, responsive, and dynamic digital solutions, from marketing sites and web apps to email templates and CMS experiences.</p>
                 <br/>
-                <p>Jesse has worked with diverse clients across various industries, offering tailored solutions to help them achieve their goals. He is a creative problem-solver who enjoys taking on challenging projects, delivering high-quality results. Whether developing a new website or improving an existing one, Jesse brings expertise, dedication, and passion to every project he undertakes.</p>
-                <p><a target="_blank" href="https://jessekevon.github.io/work/images/Resume.pdf">View Resume</a></p>
+                <p>Proficient in technologies like React, HTML5, Sass, Javascript, and PHP, I take pride in delivering visually appealing, efficient, and effective projects. My comprehensive approach covers planning, design, prototyping, and coding, resulting in user-friendly interfaces that are both attractive and well-documented. With a diverse portfolio, I've collaborated with clients across various industries, offering tailored solutions to meet their specific goals. As a creative problem-solver, I thrive on challenging projects and consistently deliver high-quality results. Whether developing a new website or enhancing an existing one, I bring expertise, dedication, and passion to every project.</p>
               </div>
             </div>
           </div>

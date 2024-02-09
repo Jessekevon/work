@@ -3,6 +3,11 @@
   src: url('https://jessekevon.github.io/work/fonts/colus/Colus-Regular.woff');
 }
 
+@font-face {
+  font-family: 'EDDaffodil-DEMO-Regular';
+  src: url('https://jessekevon.github.io/work/fonts/EDDaffodil-DEMO-Regular.otf');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,6 +22,62 @@ code {
     monospace;
 }
 
-h1 {
-  font-family: 'Colus-Regular';
+h1,
+h2,
+h3 {
+  font-family: 'EDDaffodil-DEMO-Regular';
+}
+
+.fullscreen-video {
+  width: 100%;
+  height: 100vh;
+  height: calc(var(--vh,1vh) * 100);
+  overflow: hidden;
+  position: relative;
+}
+
+.fullscreen-video video {
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-position: 50% 50%;
+}
+
+.fullscreen-video .video-text-overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  background: rgba($color: #000000, $alpha: 0.17);
+}
+
+.slideshow,
+.slide {
+  position: relative;
+}
+
+.slide {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  left: 0;
+}
+
+.slide:not(.slide--current) {
+  position: absolute;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
 }
