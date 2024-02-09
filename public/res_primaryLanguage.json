@@ -179,9 +179,30 @@
   ],
   "experience": [
     {
-      "company": "ThePointsGuy.com",
+      "company": "Sam llc",
       "title": "Front-End Developer",
-      "years": "04.2019 - present",
+      "years": "2023 - present",
+      "description": "In the early stages of my career as a developer, I was assigned the task of creating a website that would stand out for my client, Big Red Sun. To achieve this, I utilized the latest HTML and CSS best practices and took advantage of WordPress' powerful customization features. The end result was a distinctive website that perfectly matched the client's brand.",
+      "mainTech": [
+        "Scss"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Scss",
+        "React",
+        "Wordpress",
+        "PHP",
+        "HTML5",
+        "Computer Accessibility",
+        "Mentoring",
+        "Project Management"
+      ]
+    },
+    {
+      "company": "Red Ventures",
+      "title": "Front-End Developer",
+      "years": "2019 - 2023",
+      "description": "As a web developer at Red Ventures, I maintained and built web UI improvements and features for ThePointsGuy.com. A JavaScript, PHP, and React-driven credit card rewards and travel site. In my role, I took charge of TPG's UI rebranding and overhaul initiative, and I led the development of our Best Cards page. Additionally, I implemented personalized experiences through proprietary software for A/B testing and decision-making, leveraging test results, user agent information, and predefined rules. Moreover, I contributed to the creation and maintenance of our CardMatch tool, a React application that displays users' pre-approved and special offers from credit issue",
       "mainTech": [
         "Javascript"
       ],
@@ -200,7 +221,8 @@
     {
       "company": "CreditCards.com",
       "title": "Web Engineer",
-      "years": "03.2018 - 04.2019",
+      "years": "2018 - 2019",
+      "description": "In the early stages of my career as a developer, I was assigned the task of creating a website that would stand out for my client, Big Red Sun. To achieve this, I utilized the latest HTML and CSS best practices and took advantage of WordPress' powerful customization features. The end result was a distinctive website that perfectly matched the client's brand.",
       "mainTech": [
         "Vue.js"
       ],
@@ -217,7 +239,8 @@
     {
       "company": "what.it.is Creative Agency",
       "title": "Front-End Developer",
-      "years": "11.2013 - 02.2018",
+      "years": "2013 - 2018",
+      "description": "In the early stages of my career as a developer, I was assigned the task of creating a website that would stand out for my client, Big Red Sun. To achieve this, I utilized the latest HTML and CSS best practices and took advantage of WordPress' powerful customization features. The end result was a distinctive website that perfectly matched the client's brand.",
       "mainTech": [
         "Scss"
       ],
@@ -236,7 +259,8 @@
     {
       "company": "MakerSquare",
       "title": "Full Stack Developer",
-      "years": "11.2013 - 02.2018",
+      "years": "2013",
+      "description": "In the early stages of my career as a developer, I was assigned the task of creating a website that would stand out for my client, Big Red Sun. To achieve this, I utilized the latest HTML and CSS best practices and took advantage of WordPress' powerful customization features. The end result was a distinctive website that perfectly matched the client's brand.",
       "mainTech": [
         "Ruby on Rails"
       ],

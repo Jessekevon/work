@@ -16,6 +16,10 @@ html {
 	padding: 0;
 }
 
+iframe {
+	display: none !important;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -49,6 +53,21 @@ h1,
 h2,
 h3 {
   font-family: 'EDDaffodil-DEMO-Regular';
+}
+
+h2.section-title {
+	color: #fff;
+	font-size: 64px;
+	text-align: center;	
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+// Section global
+
+section {
+	min-height: 100vh;
+	padding: 40px 0;
 }
 
 // Hero
@@ -118,6 +137,7 @@ header {
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
+	overflow: hidden;
 
 	h1, h3 {
 		color: #E9DD02;
@@ -143,41 +163,19 @@ header {
 	background: #145105;
 	overflow: hidden;
 
-	p, h2 {
-		color: #fff;
-	}
-
 	p {
+		color: #fff;
 		font-size: 18px;
-	}
-
-	h2 {
-		margin: 40px 0;
-		font-size: 64px;
-		text-align: center;	
 	}
 }
 
 // Projects / Portfolio
 
-.project-date {
-	font-size: 16px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	padding: 8px 15px 2px 15px;
-	position: relative;
-	z-index: -500;
-	border-top: 5px solid #696969;
-	border-radius: 0 0 5px 5px;
-	background-color: #0e1728;
-	color: #E4E2D6;
-}
-
 .project-title-settings {
-	margin-top: 5%;
-	font-size: 18px/24px;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: #0e1728;
+	font-family: 'EDDaffodil-DEMO-Regular';
+	padding: 20px;
+	font-size: 24px;
+	color: #fff;
 	text-align: center;
 }
 
@@ -185,7 +183,6 @@ header {
 
 #portfolio {
 	background: #000;
-	padding-bottom: 5%;
 }
 
 .portfolio-item {
@@ -327,8 +324,10 @@ header {
 	align-items: center;
 }
 
+// Resume
+
 #resume {
-	background: #E4E2D6;
+	background: #145105;
 }
 
 .experience-icon {
@@ -443,16 +442,6 @@ header {
 	padding-bottom: 10%;
 }
 
-.section-title {
-	padding-top: 5%;
-	padding-bottom: 5%;
-	font-size: 18px/24px;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: #fff;
-	text-align: center;
-}
-
 .skill-icon {
 	font-size: 180%;
 	color: white;
@@ -486,98 +475,9 @@ footer a:focus {
 	font-size: 22px;
 }
 
-// Jesse edits
+// Theme overrides
 
-section {
-	position: relative;
-	&:nth-child(even) {
-		&::before {
-			content: '';
-			height: 2px;
-			background-color: #0e1728;
-			width: 75vw;
-			display: block;
-			position: absolute;
-			top: 0;
-			right: 0;
-		}
-	}
-	&:nth-child(odd) {
-		&::before {
-			content: '';
-			height: 2px;
-			background-color: #0e1728;
-			width: 75vw;
-			display: block;
-			position: absolute;
-			top: 0;
-			left: 0;
-		}
-	}
-}
-
-.arrow {
-	width: 0;
-	height: 40px;
-	border: 2px solid #D73A36;
-	position: relative;
-	animation: scroll 2.5s infinite;
-	-webkit-animation: scroll 2.5s infinite;
-	margin: 0 auto;
-	bottom: 20vh;
-	position: absolute;
-	left: 0;
-	right: 0;
-
-	@media screen and (min-width: 768px) {
-		bottom: 10vh;
-	}	
-
-	&::after {
-		content: '';
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: -5px;
-    width: 1px;
-    height: 10px;
-		
-		// triangle
-    border-top: 10px solid #D73A36;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-	}
-}
-
-@keyframes scroll {
-	0% {
-		height: 40px;
-	}
-	30% {
-		height: 60px;
-	}
-	60% {
-		height: 40px;
-	}
-}
-
-@-webkit-keyframes scroll {
-	0% {
-		height: 40px;
-	}
-	30% {
-		height: 60px;
-	}
-	60% {
-		height: 40px;
-	}
-}
-
-.github-corner {
-	display: none;
-	svg {
-		&:hover {
-			fill: #D73A36;
-		}
-	}
+.react-switch,
+.language {
+	display: none !important;
 }

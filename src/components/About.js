@@ -13,7 +13,7 @@ class About extends Component {
     return (
       <section className="about">
         <div className="col-md-12">
-          <h2>About Myself</h2>
+          <h2 className="section-title">About Myself</h2>
           <div className="row center mx-auto mb-5">
             <div className="col-md-8 center">
               <div className="col-md-10">
