@@ -57,10 +57,14 @@ h3 {
 
 h2.section-title {
 	color: #fff;
-	font-size: 64px;
+	font-size: 48px;
 	text-align: center;	
 	padding-top: 5%;
 	padding-bottom: 5%;
+
+	@media screen and (min-width: 768px) {
+		font-size: 64px;
+	}
 }
 
 // Section global
@@ -146,10 +150,14 @@ header {
 	}
 
 	h1 {
-		font-size: 96px;
+		font-size: 48px;
 		margin: 0 auto 18px auto;
 		width: 100%;	
 		margin-top: 190px;
+
+		@media screen and (min-width: 768px) {
+			font-size: 96px;
+		}
 	}
 
 	h3 {
@@ -345,20 +353,37 @@ header {
 	color: #E4E2D6;
 }
 
-.experience-badge {
-	font-size: 11px;
+.badge.experience-badge {
+	font-size: 12px;
 	text-align: left;
 	padding: 5px 8px 5px 8px;
 	vertical-align: baseline;
-	background-color: #0e1728;
-	color: #E4E2D6;
-	font-weight: lighter;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: #000;
+	color: #fff;
 }
 
-.vertical-timeline-element-date {
+h4.vertical-timeline-element-title {
+	font-size: 18px;
+}
+
+h5.vertical-timeline-element-subtitle {
+	font-style: italic;
+}
+
+.vertical-timeline-element-content p.work-experience {
+	font-size: 12px;
+}
+
+span.vertical-timeline-element-date {
 	padding: 0;
-	margin: 0;
+	font-size: 16px !important;
+	font-family: 'EDDaffodil-DEMO-Regular';
+	color: #fff;
+	margin-left: 20px;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline--two-columns .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date {
+	margin-right: 20px;
 }
 
 @media only screen and (max-width: 1170px) {
