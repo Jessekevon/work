@@ -59,9 +59,9 @@ h2.section-title {
 	color: #fff;
 	font-size: 48px;
 	text-align: center;	
-	padding-top: 5%;
+	// padding-top: 5%;
 	padding-bottom: 5%;
-	border-top: 2px solid rgba($color: #8000ff, $alpha: 0.45);
+	// border-top: 2px solid rgba($color: #8000ff, $alpha: 0.45);
 	@media screen and (min-width: 768px) {
 		font-size: 64px;
 	}
@@ -183,6 +183,10 @@ header {
 	p {
 		color: #fff;
 		font-size: 18px;
+
+		@media screen and (min-width: 1025px) {
+			font-size: 20px;
+		}
 	}
 }
 
@@ -347,6 +351,7 @@ header {
 
 #resume {
   background: rgba($color: #000000, $alpha: 0.8);
+	padding-top: 5%;
 }
 
 .experience-icon {
@@ -471,6 +476,7 @@ span.vertical-timeline-element-date {
 }
 
 #skills {
+	padding-top: 5%;
 	background: #0e1728;
 	min-height: 200px;
 	width: 100%;
