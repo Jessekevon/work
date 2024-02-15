@@ -13,7 +13,7 @@
     {
       "title": "The Points Guy",
       "startDate": "2023",
-      "description": "As a web developer at thepointsguy.com, I maintain and build web UI improvements and features for a PHP, JavaScript, and React-driven credit card rewards and travel site. With more than 35 new and updated daily posts, we serve over 8 million unique monthly visitors.In my role, I lead TPG’s UI rebranding and overhaul initiative and spearheaded the build for our Best Cards page. I also created personalized experiences using proprietary software for A/B testing and decisioning based on tests, user agent information, and rules.",
+      "description": "As a web developer at thepointsguy.com, I maintained and built web UI improvements and features for a PHP, JavaScript, and React-driven credit card rewards and travel site. With more than 35 new and updated daily posts, we served over 8 million unique monthly visitors. In my role, I lead TPG’s UI rebranding initiative and spearheaded the build for our Best Cards page. I also created personalized experiences using proprietary software for A/B testing and decisioning based on tests, user agent information, and rules.",
       "images": [
         "images/portfolio/tpg/tpg1-min.png",
         "images/portfolio/tpg/tpg2-min.png",
@@ -182,7 +182,7 @@
       "company": "Sam llc",
       "title": "Front-End Developer",
       "years": "2023 - present",
-      "description": "In the early stages of my career as a developer, I was assigned the task of creating a website that would stand out for my client, Big Red Sun. To achieve this, I utilized the latest HTML and CSS best practices and took advantage of WordPress' powerful customization features. The end result was a distinctive website that perfectly matched the client's brand.",
+      "description": "As a Front End Developer at SAM, LLC, I specialize in comprehensive WordPress site rebuilds, optimizing functionality, and design. Leveraging expertise in HTML, CSS, and JavaScript, I adeptly craft responsive designs, implementing industry-leading front-end development methodologies. Through this focus, I work to achieve exceptional Lighthouse scores, ensuring seamless user experiences aligned with organizational objectives",
       "mainTech": [
         "Scss"
       ],

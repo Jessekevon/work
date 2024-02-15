@@ -65,6 +65,10 @@ h2.section-title {
 	@media screen and (min-width: 768px) {
 		font-size: 64px;
 	}
+
+	@media screen and (min-width: 1025px) {
+		font-size: 96px;
+	}
 }
 
 // Section global
@@ -150,13 +154,18 @@ header {
 	}
 
 	h1 {
-		font-size: 48px;
+		font-size: 52px;
 		margin: 0 auto 18px auto;
 		width: 100%;	
 		margin-top: 190px;
+		padding: 0 15px;
 
 		@media screen and (min-width: 768px) {
 			font-size: 96px;
+		}
+
+		@media screen and (min-width: 1025px) {
+			font-size: 128px;
 		}
 	}
 
@@ -168,7 +177,7 @@ header {
 // About
 
 .about {
-	background: #145105;
+	background: #000;
 	overflow: hidden;
 
 	p {
@@ -180,9 +189,11 @@ header {
 // Projects / Portfolio
 
 .project-title-settings {
-	font-family: 'EDDaffodil-DEMO-Regular';
+	// font-family: 'EDDaffodil-DEMO-Regular';
 	padding: 20px;
 	font-size: 24px;
+	font-weight: 700;
+	font-style: italic;
 	color: #fff;
 	text-align: center;
 }
@@ -335,7 +346,7 @@ header {
 // Resume
 
 #resume {
-	background: #145105;
+  background: rgba($color: #000000, $alpha: 0.8);
 }
 
 .experience-icon {
