@@ -211,11 +211,10 @@ header {
 // Projects / Portfolio
 
 .project-title-settings {
-	// font-family: 'EDDaffodil-DEMO-Regular';
+	font-family: 'ItcSerifGothic-ExtraBold';
 	padding: 20px;
 	font-size: 24px;
 	font-weight: 700;
-	font-style: italic;
 	color: #fff;
 	text-align: center;
 }
@@ -223,7 +222,8 @@ header {
 // Portfolio
 
 #portfolio {
-	background: #000;
+	background: #0e1728;
+	padding-top: 5%;
 }
 
 .portfolio-item {
