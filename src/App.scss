@@ -65,10 +65,10 @@ code {
 	color: #fff;
 }
 
-h1,
 h2,
-h3 {
-  font-family: 'EDDaffodil-DEMO-Regular';
+h3,
+h4 {
+  font-family: 'ItcSerifGothic-Heavy';
 }
 
 h2.section-title {
@@ -175,6 +175,8 @@ header {
 		width: 100%;	
 		margin-top: 190px;
 		padding: 0 15px;
+		font-family: 'ItcSerifGothic-Black';
+		text-transform: uppercase;
 
 		@media screen and (min-width: 768px) {
 			font-size: 96px;
@@ -199,6 +201,7 @@ header {
 	p {
 		color: #fff;
 		font-size: 18px;
+		font-family: 'ItcSerifGothic-ExtraBold';
 
 		@media screen and (min-width: 1025px) {
 			font-size: 20px;
@@ -400,16 +403,17 @@ h4.vertical-timeline-element-title {
 
 h5.vertical-timeline-element-subtitle {
 	font-style: italic;
+	font-family: 'ItcSerifGothic-ExtraBold';
 }
 
 .vertical-timeline-element-content p.work-experience {
-	font-size: 12px;
+	font-size: 13px;
 }
 
 span.vertical-timeline-element-date {
 	padding: 0;
 	font-size: 16px !important;
-	font-family: 'EDDaffodil-DEMO-Regular';
+	font-family: 'ItcSerifGothic-Heavy';
 	color: #fff;
 	margin-left: 20px;
 }
@@ -488,7 +492,7 @@ span.vertical-timeline-element-date {
 	text-align: justify;
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 #skills {

@@ -31,7 +31,7 @@ const Slideshow = ({ slides }) => {
 };
 
 const FullscreenVideo = () => {
-  const slides = ['Development', 'Prototypes', 'Digital Solutions', 'Ui/Ux Design'];
+  const slides = ['Development', 'Prototypes', 'Ui/Ux Design', 'CMS Builds'];
 
   return (
     <div className="fullscreen-video">
@@ -40,11 +40,12 @@ const FullscreenVideo = () => {
       </video>
       <div className="video-text-overlay">
         <div className="video-text">
+          <h3>Jesse Kevon</h3>
           <div className="text-slider">
             <h1><Slideshow slides={slides} /></h1>
           </div>
         </div>
-        <h3>by Jesse Kevon</h3>
+        <h3>Digital Experiences</h3>
       </div>
       <div className="scroll-down"><span></span></div>
     </div>
