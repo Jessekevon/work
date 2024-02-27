@@ -2,10 +2,27 @@
 @import '../src/scss/themes/theme-light.scss';
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @font-face {
   font-family: 'EDDaffodil-DEMO-Regular';
   src: url('./fonts/EDDaffodil-DEMO-Regular.otf');
 }
+
+@font-face {
+	font-family: 'ItcSerifGothic-Black';
+	src: url('./fonts/itc_serif_gothic_black.otf');
+  }
+
+  @font-face {
+	font-family: 'ItcSerifGothic-ExtraBold';
+	src: url('./fonts/itc_serif_gothic_extra_bold.otf');
+  }
+
+  @font-face {
+	font-family: 'ItcSerifGothic-Heavy';
+	src: url('./fonts/itc_serif_gothic_heavy.otf');
+  }
+  
 
 // Global resets
 
