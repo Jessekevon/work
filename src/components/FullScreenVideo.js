@@ -39,8 +39,8 @@ const FullscreenVideo = () => {
         <source src="/hero.mp4" type="video/mp4" />
       </video>
       <div className="video-text-overlay">
+        <h3>Jesse Kevon</h3>
         <div className="video-text">
-          <h3>Jesse Kevon</h3>
           <div className="text-slider">
             <h1><Slideshow slides={slides} /></h1>
           </div>
