@@ -88,7 +88,7 @@ code {
 
 h2,
 h4 {
-  font-family: 'ItcSerifGothic-Heavy';
+  font-family: 'BeirutDisplay-Bold';
 }
 
 h2.section-title {
@@ -115,6 +115,42 @@ section {
 }
 
 // Hero
+
+.hero {
+	display: flex;
+	background: #000;
+}
+
+.hero-intro {
+	h1, h6 {
+		font-family: 'BeirutDisplay-Regular';
+		color: #fff;
+	}
+
+	h6 {
+		@media screen and (min-width: 768px) {
+			font-size: 32px;
+		}
+
+		@media screen and (min-width: 1025px) {
+			font-size: 48px;
+		}
+
+		a {
+			font-family: 'BeirutDisplay-Bold';
+		}
+	}
+
+	h1 {
+		@media screen and (min-width: 768px) {
+			font-size: 64px;
+		}
+
+		@media screen and (min-width: 1025px) {
+			font-size: 96px;
+		}
+	}
+}
 
 .fullscreen-video {
   width: 100%;
@@ -194,7 +230,7 @@ header {
 		font-size: 52px;
 		width: 100%;
 		padding: 0 15px;
-		font-family: 'ItcSerifGothic-Black';
+		font-family: 'BeirutDisplay-Regular';
 		text-transform: uppercase;
 
 		@media screen and (min-width: 768px) {
@@ -207,7 +243,7 @@ header {
 	}
 
 	h3 {
-		font-family: 'ItcSerifGothic-ExtraBold';
+		font-family: 'BeirutDisplay-Regular';
 		font-size: 26px;
 	}
 }
@@ -221,7 +257,7 @@ header {
 	p {
 		color: #fff;
 		font-size: 18px;
-		font-family: 'ItcSerifGothic-ExtraBold';
+		font-family: 'BeirutDisplay-Book';
 
 		@media screen and (min-width: 1025px) {
 			font-size: 20px;
@@ -232,7 +268,7 @@ header {
 // Projects / Portfolio
 
 .project-title-settings {
-	font-family: 'ItcSerifGothic-ExtraBold';
+	font-family: 'BeirutDisplay-Bold';
 	padding: 20px;
 	font-size: 24px;
 	font-weight: 700;
@@ -423,7 +459,7 @@ h4.vertical-timeline-element-title {
 
 h5.vertical-timeline-element-subtitle {
 	font-style: italic;
-	font-family: 'ItcSerifGothic-ExtraBold';
+	font-family: 'BeirutDisplay-Bold';
 }
 
 .vertical-timeline-element-content p.work-experience {
@@ -433,7 +469,7 @@ h5.vertical-timeline-element-subtitle {
 span.vertical-timeline-element-date {
 	padding: 0;
 	font-size: 16px !important;
-	font-family: 'ItcSerifGothic-Heavy';
+	font-family: 'BeirutDisplay-Bold';
 	color: #fff;
 	margin-left: 20px;
 }

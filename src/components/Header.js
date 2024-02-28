@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import FullScreenVideo from "./FullScreenVideo";
+import Hero from "./Hero";
+//import FullScreenVideo from "./FullScreenVideo";
 
 class Header extends Component {
 
   render() {
     return (
       <header id="home">
-        <FullScreenVideo /> 
+        <Hero />
       </header>
     );
   }
