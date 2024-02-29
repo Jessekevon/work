@@ -6,7 +6,7 @@ class Hero extends Component {
       <section className="hero">
         <div className="hero-intro">
           <h1 className="hero-title">Jesse Kevon</h1>
-          <h6 className="hero-text">UX Developer based in Austin, TX lets <a href="mailto:jessekevon@gmail.com">work together</a></h6>
+          <h6 className="hero-text">UX Developer based in Austin, TX let<span>'</span>s <a href="mailto:jessekevon@gmail.com">work together</a></h6>
         </div>
       </section>
     );
