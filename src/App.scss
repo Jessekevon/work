@@ -119,15 +119,31 @@ section {
 .hero {
 	display: flex;
 	background: #000;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .hero-intro {
+	padding: 0 40px;
+	max-width: 100%;
+
+	@media screen and (min-width: 768px) {
+		max-width: 80%;
+	}
+
+	@media screen and (min-width: 1025px) {
+		max-width: 1025px;
+		padding: 0 40px 0 100px;
+	}
+
 	h1, h6 {
 		font-family: 'BeirutDisplay-Regular';
 		color: #fff;
 	}
 
 	h6 {
+		font-size: 28px;
+
 		@media screen and (min-width: 768px) {
 			font-size: 32px;
 		}
@@ -142,12 +158,24 @@ section {
 	}
 
 	h1 {
+		text-align: left;
+		padding: 0;
+
 		@media screen and (min-width: 768px) {
 			font-size: 64px;
 		}
 
 		@media screen and (min-width: 1025px) {
 			font-size: 96px;
+		}
+	}
+
+	a {
+		color: #d73a36;
+		text-decoration: underline;
+
+		&:hover {
+			color: rgba($color: #d73a36, $alpha: 0.75);
 		}
 	}
 }
@@ -260,7 +288,7 @@ header {
 		font-family: 'BeirutDisplay-Book';
 
 		@media screen and (min-width: 1025px) {
-			font-size: 20px;
+			font-size: 22px;
 		}
 	}
 }
@@ -488,6 +516,12 @@ span.vertical-timeline-element-date {
 
 .modal-inside .modal-content {
 	background: white;
+}
+
+.modal-content {
+	h3 {
+		font-family: 'BeirutDisplay-Regular';
+	}
 }
 
 .bars {
